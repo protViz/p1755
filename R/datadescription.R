@@ -2,6 +2,7 @@
 #'@name p1755
 #'@docType package
 #'@import dplyr
+#'@import DBI
 #@importFrom grDevices dev.off heat.colors
 #@importFrom graphics abline axis image layout lines pairs plot points text
 #@importFrom stats cor.test dist hclust mad median p.adjust qqplot runmed t.test
@@ -11,5 +12,5 @@
 
 NULL
 # hack to supress _no visible binding for global variable _ warning in R CMD check.
-#utils::globalVariables(c("ratio"), add = TRUE)
+utils::globalVariables(c("size","dbDisconnect"), add = TRUE)
 print("loading package p1755")
