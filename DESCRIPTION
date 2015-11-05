@@ -1,10 +1,10 @@
 Package: p1755
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Helper methods for analysing data in the p1755 project
 Version: 0.1
 Date: 2015-11-05
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Witold Wolski <wewolski@gmail.com>
+Maintainer: Witold Wolski <wewolski@gmail.com>
+Description: Long term QC control of MS instruments using mscq1 sigma mix.
+License: BSD
 LazyData: TRUE
