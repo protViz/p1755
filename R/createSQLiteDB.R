@@ -20,7 +20,6 @@ createSQLiteDB <- function( path2MQ , sqliteLocation = NULL , sqlname=NULL){
   info <- file.info(files$filesf)
   stopifnot(files$filesf == rownames(info))
   files <- tbl_df(data.frame(files, info))
-  glimpse(files)
 
   files <- filter(files, size > 0)
   files <- files[ grep("\\.txt",files$files),]
