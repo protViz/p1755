@@ -10,6 +10,6 @@ loadMSQC1Transitions()
 load table with transitions
 }
 \examples{
-loadMSQC1Transitions()
+head(loadMSQC1Transitions())
 }
 
