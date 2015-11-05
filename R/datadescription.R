@@ -1,8 +1,8 @@
 #'Streamline descriptive analysis of quantitative data matrices
 #'@name p1755
 #'@docType package
-#'@import dplyr
-#'@import DBI
+#'@import dplyr DBI pepfdr
+#'
 #@importFrom grDevices dev.off heat.colors
 #@importFrom graphics abline axis image layout lines pairs plot points text
 #@importFrom stats cor.test dist hclust mad median p.adjust qqplot runmed t.test

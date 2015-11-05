@@ -8,7 +8,7 @@ Maintainer: Witold Wolski <wewolski@gmail.com>
 Description: Long term QC control of MS instruments using mscq1 sigma mix.
 License: BSD
 LazyData: TRUE
-Imports: dplyr, DBI
+Imports: dplyr, DBI, pepfdr
 URL: https://github.com/protviz/p1755
 BugReports: https://github.com/wolski/protviz/p1755
 Repository: CRAN
